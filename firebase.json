@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "build/web",
+  "cleanUrls": true,
+    "trailingSlash": false,
+   
+    "rewrites": [
+      {
+        "source": "/api/generate-image",
+        "destination": "/index.html"
+      }
+    ],
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
