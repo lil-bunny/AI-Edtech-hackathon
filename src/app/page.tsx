@@ -1,7 +1,9 @@
 import Image from "next/image";
-import LinkedinCarouselGenerator from "./carouselui";
+import LessonPlannerForm from "./lessonplannerui";
 
 export default function Home() {
   return (
-    <LinkedinCarouselGenerator/>  );
+   <LessonPlannerForm/>
+  
+  );
 }

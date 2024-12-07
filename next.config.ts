@@ -7,8 +7,6 @@ const nextConfig: NextConfig = {
 };
 
 
-module.exports = {
-  output: 'standalone', // or omit 'output' if default settings are sufficient
-};
+
 
 export default nextConfig;
